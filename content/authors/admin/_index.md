@@ -56,8 +56,8 @@ interests:
 education:
   - area: PhD in Natural Language Processing
     institution: University of Szeged
-    date_start: 2014
-    date_end: 2017
+    date_start: 2014-09-01
+    date_end: 2017-06-30
     # summary: |
     # Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
@@ -65,18 +65,18 @@ education:
     # url: 'https://example.com'
   - area: Computer Science MSc
     institution: University of Szeged
-    date_start: 2012
-    date_end: 2014
+    date_start: 2012-09-01
+    date_end: 2014-06-30
   - area: Computer Science BSc
     institution: University of Szeged
-    date_start: 2009
-    date_end: 2012
+    date_start: 2009-09-01
+    date_end: 2012-06-30
 work:
   - position: NLP Research Scientist
     company_name: Fraunhofer IIS Erlangen
     company_url: ''
     company_logo: ''
-    date_start: 2024
+    date_start: 2024-07-01
     date_end: ''
     # summary: |2-
     # Responsibilities include:
@@ -87,14 +87,14 @@ work:
     company_name: Ludwig Maximilian University of Munich (LMU)
     company_url: ''
     company_logo: ''
-    date_start: 2018
-    date_end: 2024
+    date_start: 2018-01-01
+    date_end: 2024-06-30
   - position: Data scientist
     company_name: Black Swan Hungary Kft.
     company_url: ''
     company_logo: ''
-    date_start: 2016
-    date_end: 2018
+    date_start: 2016-04-01
+    date_end: 2017-10-31
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
