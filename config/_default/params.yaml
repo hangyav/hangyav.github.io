@@ -7,8 +7,8 @@
 appearance:
   mode: system
   # color: blue
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: mylight
+  theme_night: mydark
 
 # SEO
 marketing:
