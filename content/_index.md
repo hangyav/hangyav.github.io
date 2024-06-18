@@ -18,10 +18,10 @@ sections:
       # button:
       #   text: Download CV
       #   url: uploads/resume.pdf
-    design:
-      css_class: dark
-      background:
-        color: blue
+    # design:
+    #   css_class: dark
+    #   background:
+    #     color: blue
         # image:
         #   # Add your image background to `assets/media/`.
         #   filename: stacked-peaks.svg
@@ -65,12 +65,12 @@ sections:
     design:
       view: citation
   - block: collection
-    id: papers
+    id: projects
     content:
       title: Projects
       filters:
         folders:
-          - projects
+          - project
         featured_only: true
     design:
       view: article-grid
