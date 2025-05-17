@@ -321,6 +321,7 @@
     pages = {8307--8322},
 }
 
+<<<<<<< HEAD
 @inproceedings{zhang-etal-2024-study-class,
     title = {{A Study of the Class Imbalance Problem in Abusive Language Detection}},
     author = "Zhang, Yaqi  and
@@ -342,3 +343,44 @@
     pages = "38--51",
     abstract = "Abusive language detection has drawn increasing interest in recent years. However, a less systematically explored obstacle is label imbalance, i.e., the amount of abusive data is much lower than non-abusive data, leading to performance issues. The aim of this work is to conduct a comprehensive comparative study of popular methods for addressing the class imbalance issue. We explore 10 well-known approaches on 8 datasets with distinct characteristics: binary or multi-class, moderately or largely imbalanced, focusing on various types of abuse, etc. Additionally, we pro-pose two novel methods specialized for abuse detection: AbusiveLexiconAug and ExternalDataAug, which enrich the training data using abusive lexicons and external abusive datasets, respectively. We conclude that: 1) our AbusiveLexiconAug approach, random oversampling, and focal loss are the most versatile methods on various datasets; 2) focal loss tends to yield peak model performance; 3) oversampling and focal loss provide promising results for binary datasets and small multi-class sets, while undersampling and weighted cross-entropy are more suitable for large multi-class sets; 4) most methods are sensitive to hyperparameters, yet our suggested choice of hyperparameters provides a good starting point.",
 }
+=======
+@inproceedings{zhang-etal-2025-llm,
+    title = "{LLM Sensitivity Challenges in Abusive Language Detection: Instruction-Tuned vs. Human Feedback}",
+    author = "Zhang, Yaqi  and
+      Hangya, Viktor  and
+      Fraser, Alexander",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.188/",
+    pages = "2765--2780",
+    abstract = "The capacity of large language models (LLMs) to understand and distinguish socially unacceptable texts enables them to play a promising role in abusive language detection. However, various factors can affect their sensitivity. In this work, we test whether LLMs have an unintended bias in abusive language detection, i.e., whether they predict more or less of a given abusive class than expected in zero-shot settings. Our results show that instruction-tuned LLMs tend to under-predict positive classes, since datasets used for tuning are dominated by the negative class. On the contrary, models fine-tuned with human feedback tend to be overly sensitive. In an exploratory approach to mitigate these issues, we show that label frequency in the prompt helps with the significant over-prediction."
+}
+
+@inproceedings{ghorbanpour-etal-2025-fine,
+    title = "{Fine-Grained Transfer Learning for Harmful Content Detection through Label-Specific Soft Prompt Tuning}",
+    author = "Ghorbanpour, Faeze  and
+      Hangya, Viktor  and
+      Fraser, Alexander",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.551/",
+    pages = "11047--11061",
+    ISBN = "979-8-89176-189-6",
+    abstract = "The spread of harmful content online is a dynamic issue evolving over time. Existing detection models, reliant on static data, are becoming less effective and generalizable. Developing new models requires sufficient up-to-date data, which is challenging. A potential solution is to combine existing datasets with minimal new data. However, detection tasks vary{---}some focus on hate speech, offensive, or abusive content, which differ in the intent to harm, while others focus on identifying targets of harmful speech such as racism, sexism, etc.{---}raising the challenge of handling nuanced class differences. To address these issues, we introduce a novel transfer learning method that leverages class-specific knowledge to enhance harmful content detection. In our approach, we first present label-specific soft prompt tuning, which captures and represents class-level information. Secondly, we propose two approaches to transfer this fine-grained knowledge from source (existing tasks) to target (unseen and new tasks): initializing the target task prompts from source prompts and using an attention mechanism that learns and adjusts attention scores to utilize the most relevant information from source prompts. Experiments demonstrate significant improvements in harmful content detection across English and German datasets, highlighting the effectiveness of label-specific representations and knowledge transfer."
+}
+>>>>>>> 3104b76 (update bib)
